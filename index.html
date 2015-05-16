@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>datasets by lawrennd</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>datasets</h1>
+        <p>MATLAB datasets repository.</p>
+
+        <p class="view"><a href="https://github.com/lawrennd/datasets">View the Project on GitHub <small>lawrennd/datasets</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/lawrennd/datasets/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/lawrennd/datasets/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/lawrennd/datasets">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="matlab-datasets-toolbox" class="anchor" href="#matlab-datasets-toolbox" aria-hidden="true"><span class="octicon octicon-link"></span></a>Matlab Datasets Toolbox</h1>
+
+<h2>
+<a id="release-information" class="anchor" href="#release-information" aria-hidden="true"><span class="octicon octicon-link"></span></a>Release Information</h2>
+
+<p><strong>Current release is 0.1371</strong>.</p>
+
+<p>As well as downloading the DATASETS software you need to obtain the toolboxes specified below. <strong>These can be downloaded using the <em>same</em> password you get from registering for the DATASETS software.</strong></p>
+
+<p>|---------------------------------------------------|-------------|
+| <strong>Toolbox</strong>                                       | <strong>Version</strong> |
+| <a href="/ndlutil/downloadFiles/vrs0p162">NDLUTIL</a> | 0.162       |</p>
+
+<p>Minor mods to lvmLoadData for Spellman data.</p>
+
+<h4>
+<a id="version-0137" class="anchor" href="#version-0137" aria-hidden="true"><span class="octicon octicon-link"></span></a>Version 0.137</h4>
+
+<p>Added loaders for speech grid corpus data.</p>
+
+<h4>
+<a id="version-0136" class="anchor" href="#version-0136" aria-hidden="true"><span class="octicon octicon-link"></span></a>Version 0.136</h4>
+
+<p>Added loader for Agarwal and Triggs silhouette data back in, slight modifications of robot wireless datasets.</p>
+
+<h4>
+<a id="version-0135" class="anchor" href="#version-0135" aria-hidden="true"><span class="octicon octicon-link"></span></a>Version 0.135</h4>
+
+<p>Added loader for Swiss Jura data and toy data for multiple output GPs.</p>
+
+<h4>
+<a id="version-0134" class="anchor" href="#version-0134" aria-hidden="true"><span class="octicon octicon-link"></span></a>Version 0.134</h4>
+
+<p>Added loader for the movielens data.</p>
+
+<h4>
+<a id="version-0133" class="anchor" href="#version-0133" aria-hidden="true"><span class="octicon octicon-link"></span></a>Version 0.133</h4>
+
+<p>Added some variants of the swiss roll "data".</p>
+
+<h4>
+<a id="version-0132" class="anchor" href="#version-0132" aria-hidden="true"><span class="octicon octicon-link"></span></a>Version 0.132</h4>
+
+<p>Added loader for Spellman data and the crabs data from Ripley's book. You will need the Spellman data from <a href="http://genome-www.stanford.edu/cellcycle/data/rawdata/combined.txt">here</a> and the crabs data from <a href="http://www.stats.ox.ac.uk/pub/PRNN/crabs.dat">here</a>.</p>
+
+<h4>
+<a id="version-0131" class="anchor" href="#version-0131" aria-hidden="true"><span class="octicon octicon-link"></span></a>Version 0.131</h4>
+
+<p>Moved functionality from mappingLoadData, ivmLoadData and ncnmLoadData into mapLoadData.</p>
+
+<h4>
+<a id="version-013" class="anchor" href="#version-013" aria-hidden="true"><span class="octicon octicon-link"></span></a>Version 0.13</h4>
+
+<p>Added processing for CMU data base motion capture figure 35. To load, the data should be downloaded from the CMU motion capture data base, <a href="http://mocap.cs.cmu.edu">http://mocap.cs.cmu.edu</a>, and placed in baseDir/mocap/cmu/35/, where baseDir is the directory where you have placed 'datasetsDirectory.m'. You need the amc files and the asf file.</p>
+
+<p>Removed Example 86 motion 10 from the CMU motion capture data base.</p>
+
+<h4>
+<a id="version-0121" class="anchor" href="#version-0121" aria-hidden="true"><span class="octicon octicon-link"></span></a>Version 0.121</h4>
+
+<p>Modified robot traces example to reflect the fact that the data which is missing is genuinely missing rather than just reading low.</p>
+
+<h4>
+<a id="release-012" class="anchor" href="#release-012" aria-hidden="true"><span class="octicon octicon-link"></span></a>Release 0.12</h4>
+
+<p>There seems to have been a problem in earlier releases in terms of where the datasets were placed. This has now (hopefully) been fixed using the datasetsDirectory command which returns the directory in which that command is placed. All the data should be placed in that directory.</p>
+
+<h4>
+<a id="release-011" class="anchor" href="#release-011" aria-hidden="true"><span class="octicon octicon-link"></span></a>Release 0.11</h4>
+
+<p>A new data set has been added, motion capture in x,y,z, format of a run. This <a href="http://accad.osu.edu/research/mocap/mocap_data.htm">data</a> is from Ohio state's Advanced Computing Center fro the Arts and Design web-site.</p>
+
+<p>The mapLoadData.m command has been added to load in data for regression and classification problems.</p>
+
+<h4>
+<a id="release-01" class="anchor" href="#release-01" aria-hidden="true"><span class="octicon octicon-link"></span></a>Release 0.1</h4>
+
+<p>First release of the toolbox.</p>
+
+<p>The toolbox currently contains two different files for loading datasets into matlab and a collection of matlab data sets.</p>
+
+<p>Page updated on Wed May 19 09:36:44 2010</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/lawrennd">lawrennd</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-62968536-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
